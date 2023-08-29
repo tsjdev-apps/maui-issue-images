@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImageMauiSample.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25"
+                             Padding="30,0"
+                             VerticalOptions="Center">
+
+            <Label Text="https://openweathermap.org/img/wn/10d@2x.png" />
+
+            <Image Source="https://openweathermap.org/img/wn/10d@2x.png"
+                   HorizontalOptions="Center"
+                   WidthRequest="200"/>
+
+            <Label Text="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2021/10/borders_corners.png" />
+
+            <Image Source="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2021/10/borders_corners.png"
+                   HorizontalOptions="Center"
+                   WidthRequest="200"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
